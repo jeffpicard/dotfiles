@@ -3,6 +3,7 @@
 {
     "auto_match_enabled": false,
     "font_size": 16,
+    "word_wrap": false,
     "rulers"    :
     [
         80
