@@ -1,0 +1,23 @@
+## Things I haven't automated on mac
+- Install homebrew
+- brew install
+  - tmux
+  - emacs
+  - pyenv
+  - pipenv
+  - zsh-syntax-highlighting
+  - zsh-autosuggestions
+  - ripgrep
+  - tldr
+  - fzf
+  - tree
+  - bat
+  - rmtrash
+  - postgres
+
+- Install intellij
+- Install pycharm
+- Install sublime
+- Install iterm2
+- Install docker
+- `ln -s ~/code/dotfiles/zshrc ~/.zshrc`
