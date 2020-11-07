@@ -1,5 +1,5 @@
 alias grep='grep --color'
-alias ls="ls -lah"
+alias ls="ls -1F"
 alias mv="mv -i"
 alias bat="bat -p"
 

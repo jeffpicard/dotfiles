@@ -1,2 +1,3 @@
+name.kropp.intellij.makefile
 org.intellij.scala
 org.jetbrains.kotlin
