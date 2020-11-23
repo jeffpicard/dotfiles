@@ -14,6 +14,7 @@
   - bat
   - rmtrash
   - postgres
+  - sl
 
 - Install intellij
 - Install pycharm
