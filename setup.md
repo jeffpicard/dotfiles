@@ -15,6 +15,7 @@
   - rmtrash
   - postgres
   - sl
+  - gnu-sed
 
 - Install intellij
 - Install pycharm

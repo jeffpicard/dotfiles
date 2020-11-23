@@ -45,6 +45,7 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 export CLICOLOR=1
 export PATH="$PATH":~/bin
+export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
