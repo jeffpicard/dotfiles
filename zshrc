@@ -20,7 +20,7 @@ function git_branch() {
 }
 setopt prompt_subst
 PROMPT='
-%{$fg[magenta]%}### %~ $(git_branch)###
+%{$fg[magenta]%}----- %~ $(git_branch)-----
 $ %{$reset_color%}'
 
 
