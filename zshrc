@@ -10,17 +10,11 @@ alias branch="git branch -vv"
 
 ### PROMPT ###
 autoload -U colors && colors
-function git_branch() {
-    branch=$(git symbolic-ref HEAD 2> /dev/null | sed "s|refs/heads/||")
-    if [[ $branch == "" ]]; then
-        :
-    else
-        echo '('$branch') '
-    fi
-}
+
+source /Library/Developer/CommandLineTools/usr/share/git-core/git-prompt.sh
 setopt prompt_subst
 PROMPT='
-%{$fg[magenta]%}----- %~ $(git_branch)-----
+%{$fg[magenta]%}----- %~$(__git_ps1) -----
 $ %{$reset_color%}'
 
 
@@ -46,6 +40,7 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 export CLICOLOR=1
 export PATH="$PATH":~/bin
 export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+export PROMPT_EOL_MARK=""
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
