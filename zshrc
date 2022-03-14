@@ -10,8 +10,11 @@ alias branch="git branch -vv"
 
 ### PROMPT ###
 autoload -U colors && colors
+source /Applications/Xcode.app/Contents/Developer/usr/share/git-core/git-completion.bash
+source /Applications/Xcode.app/Contents/Developer/usr/share/git-core/git-prompt.sh
+GIT_PS1_SHOWDIRTYSTATE=true
+GIT_PS1_SHOWCOLORHINTS=true
 
-source /Library/Developer/CommandLineTools/usr/share/git-core/git-prompt.sh
 setopt prompt_subst
 PROMPT='
 %{$fg[magenta]%}----- %~$(__git_ps1) -----
@@ -27,11 +30,32 @@ ZSH_HIGHLIGHT_STYLES[path]=fg=166,underline
 ZSH_HIGHLIGHT_STYLES[assign]=fg=037
 
 
-### LANGUAGE SPECIFIC ###
+### Python ###
 export PYTHONDONTWRITEBYTECODE=1
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+export PATH="$HOME/.poetry/bin:$PATH"
+eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 
+
+### JVM ###
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
+
+
+### Javascript ###
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
+
+
+### BETTER HISTORY ###
+export HISTFILE=~/.zsh_history
+export HISTFILESIZE=1000000000
+export HISTSIZE=1000000000
+setopt INC_APPEND_HISTORY
+export HISTTIMEFORMAT="[%F %T] "
+setopt EXTENDED_HISTORY
+setopt HIST_IGNORE_ALL_DUPS
 
 
 ### MISC ###
@@ -56,3 +80,4 @@ echo "
     '--------_- - - - - _/
               \`--------'
 "
+
