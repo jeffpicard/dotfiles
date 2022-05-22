@@ -38,3 +38,4 @@
     - Deselect "Automatically rearrange"
   - Add Cmd+Option+Up shortcut to Sleep
   - Add Ctrl+Option+Cmd+n shortcut for new terminal
+- Intellij: Tools -> Create Command Line launcher
