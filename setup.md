@@ -12,14 +12,28 @@
   - fzf
   - tree
   - bat
-  - rmtrash
+  - trash
   - postgres
   - sl
   - gnu-sed
 
 - Install intellij
-- Install pycharm
-- Install sublime
+- Install sublime (text and merge)
 - Install iterm2
 - Install docker
+- Install itscal (calendar widget in menu bar)
+- Install postman
+- Download monokai for emacs
 - `ln -s ~/code/dotfiles/zshrc ~/.zshrc`
+- `ln -s ~/code/dotfiles/emacs ~/.emacs`
+- `ln -s ~/code/dotfiles/tmux.conf ~/.tmux.conf`
+- `ln -s ~/code/dotfiles/hushlogin ~/.hushlogin`
+- iTerm2 -> Preferences -> General -> Preferences -> Load preferences from a custom folder or URL -> ~/code/dotfiles
+- Mac settings:
+  - Keyboard
+    - Key repeat max
+    - Delay shortest
+  - Mission Control
+    - Deselect "Automatically rearrange"
+  - Add Cmd+Option+Up shortcut to Sleep
+  - Add Ctrl+Option+Cmd+n shortcut for new terminal
