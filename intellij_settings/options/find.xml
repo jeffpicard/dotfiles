@@ -3,5 +3,62 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <mask>*.css</mask>
+    <mask>*.html</mask>
+    <mask>*.xml</mask>
+    <mask>*.jsp</mask>
+    <mask>*.properties</mask>
+    <mask>*.md</mask>
+    <mask>*.mk</mask>
+    <mask>yml</mask>
+    <mask>toml</mask>
+    <mask>prometheus.yaml</mask>
+    <mask>.yaml</mask>
+    <mask>job.yaml</mask>
+    <mask>*test*</mask>
+    <mask>.deps</mask>
+    <mask>alert_rules.yaml</mask>
+    <mask>alertrules.yml</mask>
+    <mask>rules.yml</mask>
+    <mask>podtemplate.yaml</mask>
+    <mask>pyprojec</mask>
+    <mask>*.lock</mask>
+    <mask>*.Dockerfile</mask>
+    <mask>*.Dockerfile.deps</mask>
+    <mask>*Dockerfile</mask>
+    <mask>*.mak</mask>
+    <mask>*.conf</mask>
+    <mask>build.gradle</mask>
+    <mask>*Test.scala</mask>
+    <mask>*.gradle</mask>
+    <mask>*.java</mask>
+    <mask>alert*</mask>
+    <mask>test*.py</mask>
+    <mask>*develop</mask>
+    <mask>*develop*</mask>
+    <mask>*.toml</mask>
+    <mask>appbase.Dockerfile</mask>
+    <mask>``Dockerfile</mask>
+    <mask>service.yaml</mask>
+    <mask>roles.tf</mask>
+    <mask>zuulfile</mask>
+    <mask>**develop**.yaml</mask>
+    <mask>*.yaml</mask>
+    <mask>*.tfvars</mask>
+    <mask>Appbase.Dockerfile</mask>
+    <mask>*.proto</mask>
+    <mask>alert-rules.yaml</mask>
+    <mask>*.tf</mask>
+    <mask>shared.toml</mask>
+    <mask>pdx.toml</mask>
+    <mask>dev.toml</mask>
+    <mask>gradle.properties</mask>
+    <mask>*.scala</mask>
+    <mask>dependencies.gradle</mask>
+    <mask>pyproject.toml</mask>
+    <mask>Appbase.Dockerfile.deps</mask>
+    <mask>*.deps</mask>
+    <mask>Dockerfile</mask>
+    <mask>*.py</mask>
   </component>
 </application>

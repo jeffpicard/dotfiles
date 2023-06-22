@@ -1,3 +1,7 @@
+org.jetbrains.plugins.go
+org.intellij.plugins.hcl
 name.kropp.intellij.makefile
+com.intellij.kubernetes
+monokai-pro
 org.intellij.scala
-org.jetbrains.kotlin
+Pythonid
