@@ -1,0 +1,23 @@
+[pull]
+    rebase = true
+[core]
+    editor = emacs
+[alias]
+    pushf = push --force-with-lease
+    s = status
+    co = checkout
+[rebase]
+    autoStash = true
+[core]
+    # performance
+    fsmonitor = true
+    untrackedCache = true
+[fetch]
+    prune = true
+    pruneTags = true
+[feature]
+    manyFiles = true
+[protocol]
+    version = 2
+[push]
+    autoSetupRemote = true

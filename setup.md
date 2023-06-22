@@ -28,6 +28,7 @@
 - `ln -s ~/code/dotfiles/emacs ~/.emacs`
 - `ln -s ~/code/dotfiles/tmux.conf ~/.tmux.conf`
 - `ln -s ~/code/dotfiles/hushlogin ~/.hushlogin`
+- `ln -s ~/code/dotfiles/gitconfig ~/.gitconfig`
 - iTerm2 -> Preferences -> General -> Preferences -> Load preferences from a custom folder or URL -> ~/code/dotfiles
 - Mac settings:
   - Keyboard
